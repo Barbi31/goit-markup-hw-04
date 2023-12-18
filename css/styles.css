@@ -310,37 +310,46 @@ gap: 40px;
 
 }
 .logo-title{
-  display: flex;
   text-align: center;
   justify-content: center;
   align-items: center;
-  margin-top: 120px;
   margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--navy-blue);
 
 }
 .logo-section{
   width: 1158px;
   background-color: var(--white-color);
+  padding: 120px 0 120px;
 }
 .logo-section-list{
   display: flex;
   list-style: none;
-  padding-bottom: 120px;
   gap: 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-right: 156px;
-  margin-left: 156px;
 }
 .logo-list{
-  border-radius: 4px solid var(--logo-border);
-  border-color: var(--logo-border);
-  width: 168px;
+  width: calc((100% - 120px) / 6);
   height: 88px;
+}
+.logo-links{
+  width: 100%;
+  height: 100%;
+  border: 1px solid var(--logo-border);
+  border-radius: 4px;
   align-items: center;
   display: flex;
   justify-content: center;
+  color: var(--logo-border);
+}
+.logo-links:hover,
+.logo-links:focus{
+  border-color: var(--ocean-blue);
+  color: var(--ocean-blue);
+}
+.logo-svg{
+  fill: currentColor;
 }
 /* portfolio */
 .section-portfolio{
