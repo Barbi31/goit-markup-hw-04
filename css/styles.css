@@ -51,7 +51,7 @@ body {
   gap: 24px;
 }
 .section-about-list{
-  flex-basis:calc((100%-72px)/4);
+  flex-basis:calc((100% - 72px)/4);
   width: 100%;
   min-width: 264px;
 }
@@ -332,9 +332,7 @@ gap: 40px;
   gap: 24px;
 }
 .logo-list{
-  width: calc((100% - 120px) / 6);
-  height: 88px;
-  width: 168px;
+  width: calc((100% - 120px)/6);
 }
 .logo-links{
   width: 100%;
