@@ -488,9 +488,12 @@ max-width: 264px;
   gap: 16px;
   
 }
-.footer-div-second{
+.footer-div{
   display: flex;
   align-items: baseline;
+}
+.footer-div-second{
+  
 }
 .footer-div-first{
   margin-right: 120px;
@@ -498,5 +501,9 @@ max-width: 264px;
 .icon-border{
   width: 40px; 
   height: 40px;
+}
+.logo-size{
+  width:104px;
+  height: 56px;
 }
 
